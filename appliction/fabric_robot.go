@@ -1,4 +1,17 @@
-package main
+/**
+
+  Copyright xuehuiit Corp. 2018 All Rights Reserved.
+
+  http://www.xuehuiit.com
+
+  QQ 411321681
+
+  fabric 0.6 客户端机器人，模拟客户端的相关操作，增加测试数据
+
+ */
+package appliction
+
+
 
 import (
 	//"encoding/json"

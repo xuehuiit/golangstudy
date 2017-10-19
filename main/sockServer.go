@@ -1,4 +1,13 @@
-package main
+/**
+  Copyright xuehuiit Corp. 2018 All Rights Reserved.
+
+  http://www.xuehuiit.com
+
+  QQ 411321681
+
+  socket 通信模拟测试程序
+
+ */package main
 
 import (
 	"fmt"
@@ -22,7 +31,7 @@ func main() {
 
 	fmt.Printf(" 这是服务器端 \n ")
 
-	listener, err := net.Listen("tcp", "192.168.23.196:8888")
+	listener, err := net.Listen("tcp", "192.168.23.36:8888")
 
 	if err != nil {
 		log.Println("listen error:", err)

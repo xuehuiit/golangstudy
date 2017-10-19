@@ -1,4 +1,13 @@
-package main
+/**
+  Copyright xuehuiit Corp. 2018 All Rights Reserved.
+
+  http://www.xuehuiit.com
+
+  QQ 411321681
+
+  本程序是一个go开发的小应用，启动一个http server 服务，接收请求之后，跟请求的报文，调用系统命令进行相关操作
+ */
+package appliction
 
 
 import(

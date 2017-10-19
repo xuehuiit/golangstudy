@@ -1,4 +1,14 @@
-package main
+/**
+  Copyright xuehuiit Corp. 2018 All Rights Reserved.
+
+  http://www.xuehuiit.com
+
+  QQ 411321681
+
+  一个模拟邮件发送和http请求的程序
+
+ */
+package appliction
 
 //github.com/alecthomas/log4go
 import (

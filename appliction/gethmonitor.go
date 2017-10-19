@@ -1,4 +1,16 @@
-package main
+/**
+
+  Copyright xuehuiit Corp. 2018 All Rights Reserved.
+
+  http://www.xuehuiit.com
+
+  QQ 411321681
+
+  以太坊客户端模拟器，模拟客户端发起交易
+
+ */
+
+package appliction
 
 import (
 	"encoding/json"
