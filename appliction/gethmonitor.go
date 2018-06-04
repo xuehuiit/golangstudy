@@ -10,7 +10,7 @@
 
  */
 
-package appliction
+package main
 
 import (
 	"encoding/json"

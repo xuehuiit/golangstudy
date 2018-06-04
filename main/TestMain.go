@@ -10,16 +10,19 @@
  */
 package main
 
+
+
 import (
 	//"fmt"
 	//"goutils"
-	"study"
+	study "github.com/xuehuiit/golangstudy/study"
 	/*"encoding/hex"
 	"time"*/
 	"fmt"
 	"os"
 	"os/exec"
 	"strings"
+	"github.com/xuehuiit/golangstudy/notestpakg"
 )
 
 func getCurrentPath() string {
@@ -30,6 +33,7 @@ func getCurrentPath() string {
 }
 
 func main() {
+
 
 	study.GetCurrMem()
 	/*study.SysLogTest()

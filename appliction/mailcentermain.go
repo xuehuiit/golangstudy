@@ -8,7 +8,7 @@
   一个模拟邮件发送和http请求的程序
 
  */
-package appliction
+package main
 
 //github.com/alecthomas/log4go
 import (

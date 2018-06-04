@@ -9,7 +9,7 @@
   fabric 0.6 客户端机器人，模拟客户端的相关操作，增加测试数据
 
  */
-package appliction
+package main
 
 
 
@@ -87,7 +87,7 @@ func sendFabricTranThread(threadinfo string) {
 
 	for true {
 
-		sendJson := <-sendtranChal
+		sendJson := <-sendtranChal1
 
 		chain_cmd:= fmt.Sprintf(chain_client_json_tel,chaincodeid)
 

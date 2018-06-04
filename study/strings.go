@@ -39,6 +39,58 @@ func string_sub() {
 	fmt.Printf(" 截取之后的字符串为：  %s  \n", childstr)
 }
 
+func join(){
+
+	s := []string{"hello", "word", "xiaowei"}
+	fmt.Println(strings.Join(s, "-"))
+
+}
+
+
+func split1(){
+
+	fmt.Println(strings.Split("a,b,c,d,e", ",")) //[a b c d e]
+}
+
+
+
+func byte2string(data2 []byte){
+	str2 := string(data2[:])
+	fmt.Println(str2)
+
+}
+
+/**
+  下面是一组带有分隔符号的字符和数组之间的互相转换，这些在开发中是经常遇到的。
+  比如将  "a,b,c,d,e" 转换成数组  将{"hello", "word", "xiaowei"} 转换成 字符串
+  http://www.jb51.net/article/73984.htm  这是原文章的地方
+
+ */
+func stringsplie(){
+
+
+	fmt.Println(strings.Fields("hello widuu golang")) //out  [hello widuu golang]
+
+	fmt.Println(strings.FieldsFunc("widuunhellonword", split)) // [widuu hello word]根据n字符分割
+
+	s := []string{"hello", "word", "xiaowei"}
+	fmt.Println(strings.Join(s, "-")) // hello-word-xiaowei
+	fmt.Println(strings.Split("a,b,c,d,e", ",")) //[a b c d e]
+	fmt.Println(strings.SplitAfter("a,b,c,d", ",")) //[a, b, c, d]
+	fmt.Println(strings.SplitAfterN("a,b,c,d,r", ",", 4)) //["a," "b," "c," "d,r"]
+	fmt.Println(strings.SplitAfterN("a,b,c,d,r", ",", 5)) //["a," "b," "c," "d," "r"]
+	fmt.Println(strings.SplitN("a,b,c", ",", 2)) //[a b,c]
+}
+
+
+func split(s rune) bool {
+	if s == 'n' {
+		return true
+	}
+	return false
+}
+
+
 /**
 p("Contains: ", s.Contains("source", "es")) //是否包含 true
 p("Count: ", s.Count("source", "t")) //字符串出现字符的次数 2
